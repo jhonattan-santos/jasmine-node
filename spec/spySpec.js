@@ -12,4 +12,9 @@ describe('Teste com spy', function () {
   it('Deve possuir o objeto com o método somar não definido', function () {
     expect(Calculadora.somar(1, 1)).toBeUndefined();
   });
+
+  it('Deve validar o uso da calculadora o somar deve ser chamado ao menos uma vez', function () {
+    Calculadora.somar(1, 1);
+    expect(Calculadora.somar).toHaveBeenCalled();
+  });
 });
