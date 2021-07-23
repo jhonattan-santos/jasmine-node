@@ -1,5 +1,5 @@
-# learning-jasmine
-
-Studying Jasmine
+# Learning Jasmine
 
 [![Build Status](https://travis-ci.org/wezss/jasmine-node.svg?branch=main)](https://travis-ci.org/wezss/jasmine-node)
+
+Studying Jasmine
